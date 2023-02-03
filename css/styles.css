@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background-color: #141414;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-title-header, .title {
+  font-size: 3rem;
+}
+
+.secondary-title-header {
+  font-size: 1.5rem;
+  color: #a5a5a5;
+}
+
+.main-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main-title {
+  font-size: 2.5rem;
+}
+
+#video {
+  border: 0.3rem solid #000;
+  border-radius: 10px;
+  width: 19rem;
+  height: auto;
+}
+
+.text-section {
+  background-color: #141414;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  height: 87vh;
+}
+
+.text-content {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5;
+  width: 35rem;
+  height: auto;
+}
+
+#hearth {
+  color: #ff0000;
+}
+
+.footer {
+  height: 13vh;
+  background-color: #141414;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
